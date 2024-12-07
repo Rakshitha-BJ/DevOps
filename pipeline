@@ -8,21 +8,21 @@ pipeline {
             }
         }
     }
-stages {
+stage {
         stage('build') {
             steps {
                 echo 'Hello World'
             }
         }
     }
-stages {
+stage {
         stage('test') {
             steps {
                 echo 'Hello World'
             }
         }
     }
-stages {
+stage {
         stage('deploy') {
             steps {
                 echo 'Hello World'
